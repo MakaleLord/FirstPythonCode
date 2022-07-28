@@ -32,15 +32,21 @@ body > div{
 }
 </style>
 
-<div>
-Your total cost is... 148299000 dollars
-Whole Gaming Setup 30000
-Multiple Video Games 24000
-New Car 45000
-Gulfstream G450 Private Jet 16000000
-200ft Yacht 59000000
-Maldives Private Island 65000000
-New York Penthouse 4000000
-Abundance of clothing 200000
-Patek Watch 1000000
-Veneno Roadster 3000000
+#!/usr/bin/python3
+print("Content-type:text/html \n")
+import magicwand 
+
+print("Your total cost is...", 30000 + 24000 + 45000 + 16000000 + 59000000 + 65000000 + 4000000 + 200000 + 1000000 + 3000000,"dollars")
+
+print("Whole Gaming Setup", 30000)
+print("Multiple Video Games", 24000)
+print("New Car", 45000)
+
+print("Gulfstream G450 Private Jet", 16000000)
+print("200ft Yacht", 59000000)
+print("Maldives Private Island", 65000000)
+print("New York Penthouse", 4000000)
+print("Abundance of clothing", 200000)
+print("Patek Watch", 1000000)
+  
+print("Veneno Roadster", 3000000)
